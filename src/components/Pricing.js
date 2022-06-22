@@ -78,7 +78,7 @@ function PricingContent() {
 
   return (
    
-    <React.Fragment >
+    <React.Fragment>
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none', } }} />
       <CssBaseline />
       

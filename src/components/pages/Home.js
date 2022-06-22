@@ -7,8 +7,8 @@ import BottomSectionTwo from "../BottomSectionTwo"
 import BottomSectionThree from "../BottomSectionThree"
 import BottomSectionFour from "../BottomSectionFour"
 import Footer from "../Footer"
+import Price from "./Price"
 import ContactForm from "../ContactForm"
-import Pricing from "./Pricing"
 import { Routes, Route } from "react-router-dom";
 import About from "./About"
 
@@ -28,7 +28,7 @@ function Home() {
         <BottomSectionFour/>, 
         <Footer/> ]}/> 
         <Route path="/contactUs" element={<ContactForm/>}/>
-        <Route path="/Pricing" element={<Pricing/>}/>
+       <Route path="/Price" element={<Price/>}/>
         <Route path="/About" element={<About/>}/>
        </Routes>
       
