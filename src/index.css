@@ -1,0 +1,373 @@
+body {
+    
+   overflow-x: hidden;
+    background-color: #EDF3F8;
+}
+
+
+
+/*Layout*/
+
+.wrapper {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 90%;  
+  
+}
+
+.site-nav {
+  display: flex;
+}
+
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-flex-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position:absolute;
+    height: 80px;
+    left:0;
+    right:0;
+    background-color: #1B262F;
+}
+
+
+
+header {
+    
+    padding: 2rem 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;   
+}
+
+nav li {
+    margin-left: 2rem; 
+}
+
+.form-section {
+  position: relative;
+}
+
+.form-input-section {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.input-field {
+  
+  height: 46px;
+  width: 445px;
+  left: 0px;
+  top: 0px;
+  border-radius: 24px;
+}
+
+.schedule-demo {
+  position: absolute;
+  left: 400px;
+}
+
+.container {
+  position: relative;
+}
+
+.circle {
+  display: flex;
+ position: absolute;
+width: 780px;
+height: 780px;
+left: 800px;
+top: -172px;
+}
+
+.phone {
+  position: relative;
+  left: 800px;
+  bottom: 450px;
+ 
+}
+
+.main-mid-section {
+  display: flex;
+}
+
+
+.logo-grid {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 3vw);
+    grid-gap: 12px;
+    margin-top: 140px;
+    margin-left: 140px;
+    margin-right: 80px;
+}
+
+.about-us {
+  margin-top: 20px;
+}
+
+.main-mid-section {
+
+position:absolute;
+left:0;
+right:0;
+height: 400px;
+background: #1B262F;
+margin-top: 100px;
+}
+
+.main-mid-left {
+  margin: 0 auto;
+  
+  
+}
+
+.main-bottom {
+  margin-top: 600px;
+  display: flex;
+}
+
+.bottom-right-p {
+  margin-top: 60px;
+}
+
+.main-bottom-two {
+ margin-left: 50px;
+ display: flex;
+  
+}
+
+.main-bottom-three {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Personal-finances, .Banking-cov {
+  margin-right: 40px;
+}
+
+.main-bottom-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.site-nav-footer {
+ display: flex;
+ margin-top: 20px;
+ margin-left: 150px;
+ 
+}
+
+.social-logos {
+ margin-top: 30px;
+ margin-right: 150px;
+}
+
+.facebook {
+  margin-right: 10px;
+}
+
+.twitter {
+  margin-right: 10px;
+}
+
+/*Typography*/
+
+.menu-items {
+  color: #FBFCFE;
+}
+
+.mid-heading {
+  font-family: Public Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #FBFCFE;
+}
+
+.mid-p {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #FBFCFE;
+
+}
+
+.questions {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #6C8294;
+}
+
+.contact-us {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #6C8294;
+}
+
+
+.result-p {
+  font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0px;
+color: #BA4270;;
+
+}
+
+.input-field {
+  font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: center;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+border: none;
+background: #FBFCFE;
+color: #ced3d7;
+
+}
+
+.schedule-demo {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.11538461595773697px;
+  text-align: left;
+  color: #FBFCFE;
+  background-color: #BA4270;
+  height: 48px;
+  width: 173px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+}
+
+a:link { 
+  text-decoration: none; 
+  
+}
+
+a:visited { 
+ text-decoration: none; 
+ color: #36536B; 
+}
+
+.logo {
+  margin-top: 5px;
+  height: 38px;
+}
+
+
+li {
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #36536B;
+}
+
+button {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.11538461595773697px;
+  text-align: left;
+  color: #FBFCFE;
+  background-color: #BA4270;
+  height: 48px;
+  width: 173px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+}
+
+.main-top-section {
+  font-family: Public Sans;
+  
+  height: 500px;
+}
+
+h1 {
+  font-family: Public Sans;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.5538461804389954px;
+}
+
+.bottom-heading {
+  font-family: Public Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #36536B;
+}
+
+
+.bottom-p {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #36536B;
+
+}
+
+.bottom-three-heading {
+  font-family: Public Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.13846154510974884px;
+  color: #36536B;
+}
+
+.ready-to-start {
+  font-family: Public Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #36536B;
+  margin-top: 0;
+
+
+}
+
+
+
+
+
+
