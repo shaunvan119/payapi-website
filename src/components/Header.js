@@ -11,8 +11,8 @@ function Header() {
                     <img src={logo} alt="Logo" className="logo" />   
                     <nav>
                     <ul>
-                        <li><Link to="#">Pricing</Link></li>
-                        <li><Link to="#">About</Link></li>
+                        <li><Link to="Pricing">Pricing</Link></li>
+                        <li><Link to="About">About</Link></li>
                         <li><Link to="/contactUs">Contact</Link></li>
                     </ul>
                 </nav>
