@@ -415,6 +415,11 @@ h1 {
 
 }
 
+.top-heading {
+  color: #36536B;
+  font-family: Public Sans;
+}
+
 .bottom-three-heading {
   font-family: Public Sans;
   font-size: 18px;
@@ -545,6 +550,95 @@ li {
   margin-top: -20px;
   margin-bottom: 0;
  
+}
+
+/*MQ tablet*/
+
+@media  (max-width: 1052px) {
+  .wrapper {
+    display: flex;
+    max-width: 768px; /*adjust the width to auto adjust*/
+    margin: 0 auto;
+   
+    
+  }
+
+  .phone {
+  display: none;
+ 
+}
+
+.phoneMobile {
+  position: relative;
+  left: 520px;
+  bottom: 400px;
+
+}
+
+.circle {
+  display: none;
+  }
+
+.top-heading {
+  font-size: 48px;
+  font-family: DM Serif Display;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: -0.3692307770252228px;
+
+}
+
+.main-mid-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  position:absolute;
+  width: 768px;
+  height: 615px;
+  top: 600px;
+  background: #1B262F;
+
+}
+
+
+.implement {
+  margin-left: 50px;
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.bottom-right-p {
+  
+  margin-top: -100px;
+  margin-bottom: 50px;
+
+}
+
+.main-bottom-two {
+  display: none;
+}
+
+.main-bottom-three {
+  margin-bottom: 100px;
+
+}
+
+.main-bottom-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
 }
 
 
