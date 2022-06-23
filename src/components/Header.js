@@ -19,7 +19,7 @@ function Header() {
                 </div>
                 
                 
-                <Link to="/contactUs"><button className="header">Schedule a Demo</button></Link>
+                
                 <img src={Circle} alt="Logo" className="circle" />   
             </div>
         </header>

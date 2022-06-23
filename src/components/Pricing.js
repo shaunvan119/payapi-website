@@ -1,195 +1,72 @@
 
+import line from "../assets/home/desktop/Rectangle.png"
+import {  Link } from "react-router-dom";
 
-import * as React from 'react';
-import {Link} from "react-router-dom"
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardHeader from '@mui/material/CardHeader';
-import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import StarIcon from '@mui/icons-material/StarBorder';
-import Typography from '@mui/material/Typography';
-import GlobalStyles from '@mui/material/GlobalStyles';
-import Container from '@mui/material/Container';
-
-function Copyright(props) {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © '}
-      
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-const tiers = [
-  {
-    title: 'Sales rep by the hour',
-    price:  '86 p/hr',
-    description: [
-      'Cold calling',
-      'Appointment setting',
-      'B2B and B2C cold outreach',
-      'Lead list creation',
-    ],
-    buttonText: 'Contact us',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Sales rep + Digital transform',
+function Pricing() {
     
-    price: '5430',
-    description: [
-      'Cold calling',
-      'Appointment setting',
-      'B2B and B2C cold outreach',
-      'Outreach automation',
-      'Digital transform package'
-    ],
-    buttonText: 'Contact us',
-    buttonVariant: 'contained',
-  },
-  {
-    title: 'Digital transform ',
-    price: '1990',
-    description: [
-      'Website creation',
-      'Website design',
-      'Lead landing pages',
-      'LinkedIn automation',
-      'Automated email campaigns',
-    ],
-    buttonText: 'Contact us',
-    buttonVariant: 'outlined',
-  },
-];
+    return (
+         <div className="price-main-section">
+            <div className="free-plan">
+                <p className="price-title">Free Plan</p>
+                <p className="price-p">Build and test using our core set of products with<br/> 
+                up to 100 API requests </p>
+                <p className="price-amount">$0.00</p>
+                <img src={line} alt="line" className="line" />
+              <ul className="price-items">
+                  <li>Transactions</li>
+                  <li>Auth</li>
+                  <li>Identity</li>
+                  <li>Investments</li>
+                  <li>Assets</li>
+                  <li>Liabilities</li>
+                  <li>Income</li>
+              </ul>  
+                 <img src={line} alt="line" className="line" />
+                 <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>
+            </div>
 
+            <div className="basic-plan">
+                <p className="price-title">Free Plan</p>
+                <p className="price-p">Launch your project with unlimited requests and<br/> no contractual minimums  </p>
+                <p className="price-amount">$249.00</p>
+                <img src={line} alt="line" className="line" />
+                <ul className="price-items">
+                    <li>Transactions</li>
+                    <li>Auth</li>
+                    <li>Identity</li>
+                    <li>Investments</li>
+                    <li>Assets</li>
+                    <li>Liabilities</li>
+                    <li>Income</li>
+              </ul>  
+                 <img src={line} alt="line" className="line" />
+                 <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>
+            </div>
 
-
-function PricingContent() {
-    const styleObj = {
-    fontFamily: "Plus Jakarta Sans",
-}
-
-
-  return (
-   
-    <React.Fragment>
-      <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none', } }} />
-      <CssBaseline />
-      
-      {/* Hero unit */}
-      <Container disableGutters maxWidth="sm" component="main"  sx={{ pt: 8, pb: 6 }}>
-        <Typography
-          component="h1"
-          variant="h2"
-          align="center"
-          color="#83869A"
-          style={styleObj}
-          
-          
-          gutterBottom
-        >
-          Pricing
-        </Typography>
-        <Typography style={styleObj} variant="h5" align="center" color="#83869A" component="p" >
-          Get an uplift in lead conversions for fraction of the cost of a fulltime BDM and marketing agency.
-        </Typography>
-      </Container>
-      {/* End hero unit */}
-      <Container maxWidth="md" component="main">
-        <Grid container spacing={5} alignItems="flex-end">
-          {tiers.map((tier) => (
-            // Enterprise card is full width at sm breakpoint
-            <Grid
-              item
-              key={tier.title}
-              xs={12}
-              sm={tier.title === 'Enterprise' ? 12 : 6}
-              md={4}
+            <div className="Premium-plan">
+                <p className="price-title">Free Plan</p>
+                <p className="price-p">Get tailored solutions, volume pricing, and<br/> 
+                dedicated support for your team </p>
+                <p className="price-amount">$499.00</p>
+                <img src={line} alt="line" className="line" />
+                <ul className="price-items">
+                    <li>Transactions</li>
+                    <li>Auth</li>
+                    <li>Identity</li>
+                    <li>Investments</li>
+                    <li>Assets</li>
+                    <li>Liabilities</li>
+                    <li>Income</li>
+              </ul>  
+                <img src={line} alt="line" className="line" />
+                <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>
+            </div>
+            
+            
+            
               
-            >
-              <Card>
-                <CardHeader
-              
-                  title={tier.title}
-                  subheader={tier.subheader}
-                  titleTypographyProps={{ align: 'center' }}
-                  action={tier.title === 'Pro' ? <StarIcon /> : null}
-                  subheaderTypographyProps={{
-                    align: 'center',
-                  }}
-                  style={styleObj}
-                  sx={{
-                    backgroundColor: '#13183F',
-                    color:'#FFFFFF',
-
-                  }}
-                />
-                <CardContent>
-                  <Box
-                  
-                    sx={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'baseline',
-                      mb: 2,
-                      
-                    }}
-                  >
-                    <Typography style={styleObj} component="h2" variant="h5" color="#83869A">
-                      From ${tier.price}
-                    </Typography>
-                    <Typography variant="h6" color="#83869A">
-                      
-                    </Typography>
-                  </Box>
-                  <ul>
-                    {tier.description.map((line) => (
-                      <Typography
-                      style={styleObj}
-                        component="li"
-                        variant="subtitle1"
-                        align="center"
-                        key={line}
-                        color="#83869A"
-                      >
-                        {line}
-                      </Typography>
-                    ))}
-                  </ul>
-                </CardContent>
-                <CardActions>
-                <Link style={{ textDecoration: 'none', width: "100%", display: 'flex', justifyContent: 'center' }} to="/contact">
-                  <Button fullWidth variant={tier.buttonVariant} style={styleObj} sx={{color:'#83869A', background: '#13183F'}}>
-                    {tier.buttonText}
-                  </Button>
-                  </Link>
-                </CardActions>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
-      {/* Footer */}
-      <Container
-        maxWidth="md"
-        component="footer"
-        
-      >
-        
-        <Copyright style={styleObj} sx={{ mt: 5 }} />
-      </Container>
-      {/* End footer */}
-    </React.Fragment>
-      
-  );
+        </div>
+    )
 }
 
-export default function Pricing() {
-  return <PricingContent />;
-}
+export default Pricing
