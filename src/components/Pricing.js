@@ -1,5 +1,6 @@
 
 import line from "../assets/home/desktop/Rectangle.png"
+
 import {  Link } from "react-router-dom";
 
 function Pricing() {
