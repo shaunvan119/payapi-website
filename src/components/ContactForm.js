@@ -1,5 +1,7 @@
-import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState, useRef } from "react"
+import emailjs from "@emailjs/browser"
+import Header from "./Header";
+
 
 
 
@@ -7,7 +9,7 @@ import emailjs from "@emailjs/browser";
 
 const Result = () => {
   return (
-    <p>Your message has been sent</p>
+    <p className="result-msg">Your message has been sent</p>
   );
 };
 
@@ -40,16 +42,18 @@ const ContactForm = () => {
   };
 
   return (
-     <div className="form-section">
-      <form ref={form} onSubmit={sendEmail}>
+     <div className="form-section-contactus">
+     <Header/>
+     <h1 className="contact-us-header">Submit a help request and<br/> we’ll get in touch shortly.</h1>
+      <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input className="input-contact" type="text" name="user_name" />
         <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
+        <input className="input-contact" type="email" name="user_email" />
+        <label >Message</label>
+        <textarea className="input-contact" name="message" />
         <div> {result ? <Result/> : null}</div>
-        <input type="submit" value="Send" />
+        <input className="input-button" type="submit" value="Send" />
       </form>
    </div> 
   );
