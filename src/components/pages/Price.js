@@ -10,7 +10,7 @@ import Contact from "../Contact"
 function Price() {
     
     return (
-        <div className="home-page">
+        <div className="pice-page">
         <Header/>
         <Pricing/>
        <div className="ready-price-contact">

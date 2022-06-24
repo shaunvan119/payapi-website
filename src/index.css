@@ -555,6 +555,8 @@ li {
 /*MQ tablet*/
 
 @media  (max-width: 1052px) {
+/*MQ tablet home*/
+
   .wrapper {
     display: flex;
     max-width: 768px; /*adjust the width to auto adjust*/
@@ -637,8 +639,42 @@ li {
   align-items: center;
 }
 
+/*MQ tablet price*/
 
 
+
+.ready-price-page{
+  display: none;
+}
+
+.price-main-section {
+ 
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.price-title {
+  font-size: 24px;
+}
+ .price-p {
+  font-size: 10px;
+  line-height: 20px;
+ }
+
+ li {
+  font-size: 10px;
+  line-height: 20px;
+ }
+
+ .price-amount {
+  font-size: 35px;
+ }
+
+ .line {
+  width: 250px;
+  
+ }
 }
 
 
