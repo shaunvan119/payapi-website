@@ -7,6 +7,7 @@ import Header from "./Header";
 
 
 
+
 const Result = () => {
   return (
     <p className="result-msg">Your message has been sent</p>
@@ -55,6 +56,7 @@ const ContactForm = () => {
         <div> {result ? <Result/> : null}</div>
         <input className="input-button" type="submit" value="Send" />
       </form>
+ 
    </div> 
   );
 };

@@ -773,6 +773,13 @@ height: 267px;
   
  }
 
+  /*MQ tablet contact us home*/
+
+ .contact-us-header {
+  font-size: 48px;
+
+ }
+
 }
 
  /*MQ mobile home*/
@@ -947,7 +954,35 @@ height: 267px;
   margin-bottom: 100px;
  }
 
+
+ /*MQ mobile contact*/
+
+.form-section-contactus {
+  width: 390px;
+  
 }
+
+.input-contact {
+  width: 390px;
+}
+
+
+.contact-us-header {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.circle {
+  display: none;
+}
+
+}
+
+
 
 
 
