@@ -14,13 +14,13 @@ function Pricing() {
                 <p className="price-amount">$0.00</p>
                 <img src={line} alt="line" className="line" />
               <ul className="price-items">
-                  <li>Transactions</li>
-                  <li>Auth</li>
-                  <li>Identity</li>
-                  <li>Investments</li>
-                  <li>Assets</li>
-                  <li>Liabilities</li>
-                  <li>Income</li>
+                  <li className="list-li">Transactions</li>
+                  <li className="list-li" >Auth</li>
+                  <li className="list-li" >Identity</li>
+                  <li className="list-li">Investments</li>
+                  <li className="list-li">Assets</li>
+                  <li className="list-li">Liabilities</li>
+                  <li className="list-li">Income</li>
               </ul>  
                  <img src={line} alt="line" className="line" />
                  <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>
@@ -32,13 +32,13 @@ function Pricing() {
                 <p className="price-amount">$249.00</p>
                 <img src={line} alt="line" className="line" />
                 <ul className="price-items">
-                    <li>Transactions</li>
-                    <li>Auth</li>
-                    <li>Identity</li>
-                    <li>Investments</li>
-                    <li>Assets</li>
-                    <li>Liabilities</li>
-                    <li>Income</li>
+                    <li className="list-li">Transactions</li>
+                    <li className="list-li">Auth</li>
+                    <li className="list-li">Identity</li>
+                    <li className="list-li">Investments</li>
+                    <li className="list-li">Assets</li>
+                    <li className="list-li">Liabilities</li>
+                    <li className="list-li">Income</li>
               </ul>  
                  <img src={line} alt="line" className="line" />
                  <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>
@@ -51,13 +51,13 @@ function Pricing() {
                 <p className="price-amount">$499.00</p>
                 <img src={line} alt="line" className="line" />
                 <ul className="price-items">
-                    <li>Transactions</li>
-                    <li>Auth</li>
-                    <li>Identity</li>
-                    <li>Investments</li>
-                    <li>Assets</li>
-                    <li>Liabilities</li>
-                    <li>Income</li>
+                    <li className="list-li">Transactions</li>
+                    <li className="list-li">Auth</li>
+                    <li className="list-li">Identity</li>
+                    <li className="list-li">Investments</li>
+                    <li className="list-li">Assets</li>
+                    <li className="list-li">Liabilities</li>
+                    <li className="list-li">Income</li>
               </ul>  
                 <img src={line} alt="line" className="line" />
                 <Link to="/contactUs"><button className="header-button">Contact Us</button></Link>

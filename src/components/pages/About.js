@@ -13,7 +13,7 @@ import line from "../pages/Rectangle.png"
 function About() {
     
     return (
-        <div className="home-page">
+        <div className="about-page">
         <Header/>
         <h1 className="innovators">We empower innovators<br/>
               by delivering access to the<br/>financial system</h1>

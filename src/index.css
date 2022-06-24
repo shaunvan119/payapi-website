@@ -641,8 +641,6 @@ li {
 
 /*MQ tablet price*/
 
-
-
 .ready-price-page{
   display: none;
 }
@@ -662,9 +660,10 @@ li {
   line-height: 20px;
  }
 
- li {
+.list-li {
   font-size: 10px;
   line-height: 20px;
+  align-items: center;
  }
 
  .price-amount {
@@ -673,8 +672,44 @@ li {
 
  .line {
   width: 250px;
+ }
+
+ .price-items {
+  margin-right: 40px;
+
+ }
+
+ /*MQ tablet about*/
+ .innovators {
+  font-size: 48px;
+ 
   
  }
+
+ .about-h2-top, .about-h2  {
+  font-size: 20px;
+  margin-bottom: -30px;
+  
+  
+ }
+
+ .about-h2-top {
+  margin-right: 130px;
+ }
+
+ .team {
+  width: 769px;
+height: 267px;
+
+
+ }
+
+ .aboutus-section-two, .aboutus-section-one {
+  display: flex;
+  flex-direction: column;
+  
+ }
+
 }
 
 
