@@ -792,6 +792,49 @@ height: 267px;
  padding-bottom: 80px;
 }
 
+
+/*MQ mobile pice*/
+
+.pice-page {
+  margin-bottom: 100px;
+}
+
+
+.price-main-section {
+ display: flex;
+ flex-direction: column;
+}
+
+.price-title {
+  font-size: 24px;
+}
+ .price-p {
+  display: none;
+ }
+
+.list-li {
+  font-size: 10px;
+  line-height: 20px;
+  align-items: center;
+ }
+
+ .price-amount {
+  font-size: 35px;
+ }
+
+ .line {
+  width: 250px;
+ }
+
+ .price-items {
+  margin-right: 40px;
+
+ }
+
+ .Premium-plan {
+  margin-right: 40px;
+ }
+
 /*MQ mobile about*/
 .innovators {
   font-size: 32px;
@@ -813,18 +856,13 @@ height: 267px;
 
  .team {
   width: 390px;
-height: 200px;
+  height: 200px;
 
 
  }
 
  .aboutus-section-two, .aboutus-section-one {
-  display: flex;
-  flex-direction: column;
   width: 390px;
-  
-  
-  
  }
 
  .about-p {
