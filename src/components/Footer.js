@@ -13,11 +13,11 @@ function Footer() {
                 <div class="site-nav-footer">
                     <img src={logowhite} alt="Logo" className="logo" />   
                     <nav className='footer-nav'>
-                    <ul >
-                        <li ><Link to="#">Pricing</Link></li>
-                        <li><Link to="#">About</Link></li>
-                        <li><Link to="/contactUs">Contact</Link></li>
-                    </ul>
+                <ul >
+                    <li ><Link to="#">Pricing</Link></li>
+                    <li><Link to="#">About</Link></li>
+                    <li><Link to="/contactUs">Contact</Link></li>
+                </ul>
                 </nav>
                 </div>
                 

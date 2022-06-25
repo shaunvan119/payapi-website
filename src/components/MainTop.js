@@ -13,11 +13,9 @@ function MainTop() {
                 absolutely free.</h1>
                 <p><span className="questions">Have any questions?</span><span className="contact-us"> Contact Us</span></p>
                 <Contact/>
-            
-                 <img src={phone} alt="Logo" className="phone" /> 
-                 <img src={PhoneMobile} alt="Logo" className="phoneMobile" /> 
-                          
-                 </div>
+                <img src={phone} alt="Logo" className="phone" /> 
+                <img src={PhoneMobile} alt="Logo" className="phoneMobile" />               
+        </div>
            
     )
 }

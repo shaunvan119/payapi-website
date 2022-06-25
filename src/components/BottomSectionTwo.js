@@ -11,10 +11,7 @@ function BottomSectionTwo() {
                 <p className="bottom-p">Our pre-built form is easy to integrate in your app or website’s<br/> 
                 checkout flow and designed to optimize conversion. </p>  
             </div>
-            
-            <img src={phoneX} alt="Logo" className="phoneOne" />
-            
-              
+                <img src={phoneX} alt="Logo" className="phoneOne" />     
         </div>
            
     )
