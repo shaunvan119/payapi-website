@@ -8,7 +8,7 @@ function Header() {
         <header>
             <div class="container container-flex">
                 <div class="site-nav">
-                    <img src={logo} alt="Logo" className="logo" />   
+                    <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>   
                     <nav>
                     <ul>
                         <li><Link to="/Price">Pricing</Link></li>
