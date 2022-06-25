@@ -10,7 +10,9 @@ import Header from "./Header";
 
 const Result = () => {
   return (
+    
     <p className="result-msg">Your message has been sent</p>
+   
   );
 };
 

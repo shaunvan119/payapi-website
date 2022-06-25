@@ -7,7 +7,7 @@ import emailjs from "@emailjs/browser";
 
 const Result = () => {
   return (
-    <p>Your request has been sent, we will be contact soon with booking times</p>
+    <p className="result-book-demo">Your request has been sent, we will be contact soon with booking times</p>
   );
 };
 
@@ -42,10 +42,10 @@ const Contact = () => {
   return (
      <div className="form-section">
       <form className="form-input-section"  ref={form} onSubmit={sendEmail}>
-        <input className="input-field" type="email" name="user_email" value="Enter email address" />
+        <input  className="input-field" type="email" name="user_email" placeholder="sophie@example.com" />
         <input className="schedule-demo"  type="submit" value="Schedule a Demo" />
       </form>
-      <div className="result-p"> {result ? <Result/> : null}</div>
+      <div className="result"> {result ? <Result/> : null}</div>
    </div> 
   );
 };

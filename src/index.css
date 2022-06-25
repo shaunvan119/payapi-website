@@ -97,6 +97,8 @@ top: -172px;
  
 }
 
+
+
 .main-mid-section {
   display: flex;
 }
@@ -285,6 +287,16 @@ ul {
 }
 
 /*Typography*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6C8294;
+  opacity: .5; /* Firefox */
+}
+
+.result-book-demo {
+  color: #BA4270;
+  font-family: Public Sans;
+}
 
 .input-contact {
   color: #6C8294;
@@ -862,6 +874,11 @@ height: 267px;
  padding-bottom: 80px;
 }
 
+.result-book-demo {
+  margin-top: 65px;
+  font-size: 12px;
+}
+
 
 /*MQ mobile pice*/
 
@@ -977,6 +994,16 @@ height: 267px;
 }
 
 .circle {
+  display: none;
+}
+
+}
+
+
+
+
+@media  (min-width: 1052px) {
+.phoneMobile {
   display: none;
 }
 
